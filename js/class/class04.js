@@ -27,3 +27,5 @@ class Numpoly extends Rect{
 //지역 데이터
 const myPoly = new Numpoly(100,300,3);
 console.log(myPoly.action());
+
+

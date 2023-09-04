@@ -26,7 +26,7 @@ class It extends Book{
     }
 }
 
-//It 데이터
+//지역 데이터
 const myIt = [
     new It('html','인터넷', 1),
     new It('javascript','개발', 2),

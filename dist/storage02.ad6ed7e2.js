@@ -149,8 +149,8 @@ console.log(num);
 var str2 = JSON.parse(num);
 console.log(str2);
 document.write("\n<dl>\n<dt>".concat(str2.name, "</dt>\n<dd>").concat(str2.color, "</dd>\n<dd>").concat(str2.price, "</dd>\n</dl>"));
-localStorage.removeItem('color');
-localStorage.clear();
+localStorage.removeItem('color'); // 해당 키를 지움
+localStorage.clear(); //전체를 싹 다 지움
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -176,7 +176,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58132" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58899" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

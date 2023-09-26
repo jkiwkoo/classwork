@@ -37,5 +37,5 @@ document.write(`
 <dd>${str2.price}</dd>
 </dl>`)
 
-localStorage.removeItem('color');
-localStorage.clear();
+localStorage.removeItem('color'); // 해당 키를 지움
+localStorage.clear(); //전체를 싹 다 지움
